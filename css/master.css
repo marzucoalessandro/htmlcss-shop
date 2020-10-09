@@ -3,12 +3,10 @@
 }
 
 body{
-  
   text-align: center;
 }
-.container{
 
-}
+
 
 .card{
   position: relative;
@@ -16,14 +14,15 @@ body{
 }
 
 .sales{
-  background-color: green;
   position: absolute;
   top: 0;
   right: 0;
-
-
 }
 
+/* teniamo i colori fuori dal sales per poter migliorare la leggibilità */
+.green{
+  background-color: green;
+}
 .red{
   background-color: red;
 }
@@ -32,7 +31,7 @@ body{
   position: absolute;
   bottom: 0;
   left: 50%;
-  color: transparent;
+  display: none;
 }
 
 .row{
@@ -41,6 +40,5 @@ body{
 
 .card:hover .heart{
   color:red;
-
-
+  display: block;
 }
