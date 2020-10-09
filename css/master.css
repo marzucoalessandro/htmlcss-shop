@@ -1,8 +1,11 @@
 *{
   box-sizing: border-box;
-
 }
 
+body{
+  
+  text-align: center;
+}
 .container{
 
 }
@@ -29,7 +32,7 @@
   position: absolute;
   bottom: 0;
   left: 50%;
-  /* display: none; */
+  color: transparent;
 }
 
 .row{
@@ -38,5 +41,6 @@
 
 .card:hover .heart{
   color:red;
+
 
 }
