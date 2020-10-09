@@ -1,1 +1,29 @@
+*{
+  box-sizing: border-box;
 
+}
+
+.container{
+  margin-left: auto;
+}
+
+.card{
+  position: relative;
+  display: inline-block;
+}
+
+.sales{
+
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+.heart{
+
+  width: 40px;
+  height: 40px;
+
+}
