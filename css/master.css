@@ -21,10 +21,12 @@ body{
 
 /* teniamo i colori fuori dal sales per poter migliorare la leggibilità */
 .green{
-  background-color: green;
+  background-color: rgba(0 128 0 / 64%);
+  font-weight: 800;
 }
 .red{
   background-color: red;
+  font-weight: 800;
 }
 
 .heart{
