@@ -4,7 +4,7 @@
 }
 
 .container{
-  margin-left: auto;
+
 }
 
 .card{
@@ -29,5 +29,14 @@
   position: absolute;
   bottom: 0;
   left: 50%;
+  /* display: none; */
+}
+
+.row{
+  margin-top: 30px;
+}
+
+.card:hover .heart{
+  color:red;
 
 }
